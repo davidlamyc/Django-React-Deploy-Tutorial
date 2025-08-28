@@ -1,0 +1,26 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform cache directory
+.terraform/
+
+# Terraform variable files (often contain sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+*.tfoverride
+
+# Environment-specific files
+.envrc
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# binary
+terraform.exe
+
+#tfplan
+tfplan
